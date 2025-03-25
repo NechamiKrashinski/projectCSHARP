@@ -30,7 +30,12 @@ public static class Program
 
             return s_bl.Order.AddProductToOrder(order, id, amount);
         }
-        catch (Exception e)
+        catch (BO.BLExceptionNotEnoughInStock ex) // נתפוס מחסור במלאי
+        {
+            Console.WriteLine($"Error: Not enough stock for {ex.Message}. Please try again.");
+            return new List<BO.SaleInProduct>(); // מחזירים רשימה ריקה במקום לקרוס
+        }
+        catch (Exception e) // נתפוס כל שגיאה אחרת
         {
             throw e;
 
