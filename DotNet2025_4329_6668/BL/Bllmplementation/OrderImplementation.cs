@@ -101,7 +101,7 @@ internal class OrderImplementation : BlApi.IOrder
             //נבדוק האם הכמות במלאי מספיקה 
             if (productInStock.Amount < amount + product.Amount)
             {
-                throw new Exception("no enough");
+                throw new BO.BLExceptionNotEnoughInStock(product.Name);
             }
             //נעדכן את הכמות בהזמנה
             product.Amount += amount;
@@ -111,6 +111,7 @@ internal class OrderImplementation : BlApi.IOrder
             // רשימת המבצעים שמומשו למוצר זה.
             return product.ListOfSaleForProduct;
         }
+
         catch (Exception e)
         {
             throw e;

@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlTest", "BlTest\BlTest.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DalXml", "DalXml\DalXml.csproj", "{929F6AA1-878A-464A-8484-1EF37FE251D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI\UI.csproj", "{6A7284B6-A101-449E-B636-D8FFF35CEFA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,6 +62,10 @@ Global
 		{929F6AA1-878A-464A-8484-1EF37FE251D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{929F6AA1-878A-464A-8484-1EF37FE251D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{929F6AA1-878A-464A-8484-1EF37FE251D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A7284B6-A101-449E-B636-D8FFF35CEFA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A7284B6-A101-449E-B636-D8FFF35CEFA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A7284B6-A101-449E-B636-D8FFF35CEFA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A7284B6-A101-449E-B636-D8FFF35CEFA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

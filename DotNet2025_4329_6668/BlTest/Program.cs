@@ -33,7 +33,7 @@ public static class Program
         catch (Exception e)
         {
             throw e;
-            
+
         }
     }
     public static void GetProducts()
@@ -85,9 +85,6 @@ public static class Program
             Console.WriteLine("for more order press 1, for exit press 0");
         }
         while (int.TryParse(Console.ReadLine(), out select) && select != 0);
-
-
-
 
     }
 }

@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <config>
-	<xmlName>data-config</xmlName>
-	<startValproduct>1</startValproduct>
-	<startValSale>1000</startValSale>
-	<NextValProduct>1</NextValProduct>
-	<NextValSale>10</NextValSale>
+  <xmlName>data-config</xmlName>
+  <startValproduct>1</startValproduct>
+  <startValSale>1000</startValSale>
+  <NextValProduct>7</NextValProduct>
+  <NextValSale>12</NextValSale>
 </config>

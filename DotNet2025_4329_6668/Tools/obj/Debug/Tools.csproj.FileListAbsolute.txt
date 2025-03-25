@@ -42,3 +42,15 @@ Z:\B\קרשינסקי נחמי\C#\project\DotNet2025_4329_6668\Tools\obj\Debug\T
 Z:\B\קרשינסקי נחמי\C#\project\DotNet2025_4329_6668\Tools\obj\Debug\refint\Tools.dll
 Z:\B\קרשינסקי נחמי\C#\project\DotNet2025_4329_6668\Tools\obj\Debug\Tools.pdb
 Z:\B\קרשינסקי נחמי\C#\project\DotNet2025_4329_6668\Tools\obj\Debug\ref\Tools.dll
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\bin\Tools.deps.json
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\bin\Tools.dll
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\bin\Tools.pdb
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\Tools\obj\Debug\Tools.AssemblyInfo.cs
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\Tools\obj\Debug\Tools.sourcelink.json
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\Tools\obj\Debug\Tools.dll
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\Tools\obj\Debug\refint\Tools.dll
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\Tools\obj\Debug\Tools.pdb
+C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\Tools\obj\Debug\ref\Tools.dll

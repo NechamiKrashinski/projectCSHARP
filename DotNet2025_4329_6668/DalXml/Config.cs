@@ -51,7 +51,7 @@ internal static class Config
 
         get
         {
-            return startValSale + readFromConfigAndIncrease("NextValProduct");
+            return startValSale + readFromConfigAndIncrease("NextValSale");
         }
 
     }
