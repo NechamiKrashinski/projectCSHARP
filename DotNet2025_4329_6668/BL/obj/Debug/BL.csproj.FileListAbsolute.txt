@@ -64,3 +64,17 @@ C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329
 C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\BL\obj\Debug\refint\BL.dll
 C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\BL\obj\Debug\BL.pdb
 C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\BL\obj\Debug\ref\BL.dll
+Z:\B\קרשינסקי נחמי\C#\projectCSHARP\DotNet2025_4329_6668\bin\BL.deps.json
+Z:\B\קרשינסקי נחמי\C#\projectCSHARP\DotNet2025_4329_6668\bin\BL.dll
+Z:\B\קרשינסקי נחמי\C#\projectCSHARP\DotNet2025_4329_6668\bin\BL.pdb
+Z:\B\קרשינסקי נחמי\C#\projectCSHARP\DotNet2025_4329_6668\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+Z:\B\קרשינסקי נחמי\C#\projectCSHARP\DotNet2025_4329_6668\BL\obj\Debug\BL.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\קרשינסקי נחמי\C#\projectCSHARP\DotNet2025_4329_6668\BL\obj\Debug\BL.AssemblyInfoInputs.cache
+Z:\B\קרשינסקי נחמי\C#\projectCSHARP\DotNet2025_4329_6668\BL\obj\Debug\BL.AssemblyInfo.cs
+Z:\B\קרשינסקי נחמי\C#\projectCSHARP\DotNet2025_4329_6668\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+Z:\B\קרשינסקי נחמי\C#\projectCSHARP\DotNet2025_4329_6668\BL\obj\Debug\BL.sourcelink.json
+Z:\B\קרשינסקי נחמי\C#\projectCSHARP\DotNet2025_4329_6668\BL\obj\Debug\BL.csproj.Up2Date
+Z:\B\קרשינסקי נחמי\C#\projectCSHARP\DotNet2025_4329_6668\BL\obj\Debug\BL.dll
+Z:\B\קרשינסקי נחמי\C#\projectCSHARP\DotNet2025_4329_6668\BL\obj\Debug\refint\BL.dll
+Z:\B\קרשינסקי נחמי\C#\projectCSHARP\DotNet2025_4329_6668\BL\obj\Debug\BL.pdb
+Z:\B\קרשינסקי נחמי\C#\projectCSHARP\DotNet2025_4329_6668\BL\obj\Debug\ref\BL.dll

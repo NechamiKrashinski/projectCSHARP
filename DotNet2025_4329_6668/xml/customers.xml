@@ -30,4 +30,10 @@
     <Address>קס</Address>
     <Phone>055555</Phone>
   </Customer>
+  <Customer>
+    <ID>111</ID>
+    <Name>nechami</Name>
+    <Address>nnn</Address>
+    <Phone>6856</Phone>
+  </Customer>
 </ArrayOfCustomer>

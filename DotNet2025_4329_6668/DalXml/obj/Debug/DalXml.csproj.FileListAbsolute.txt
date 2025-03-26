@@ -51,3 +51,17 @@ C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329
 C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\DalXml\obj\Debug\refint\DalXml.dll
 C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\DalXml\obj\Debug\DalXml.pdb
 C:\Users\user1\Documents\לימודים\c#\project\projectCSHARP\DotNet2025_4329_6668\DalXml\obj\Debug\ref\DalXml.dll
+Z:\B\קרשינסקי נחמי\C#\projectCSHARP\DotNet2025_4329_6668\bin\DalXml.deps.json
+Z:\B\קרשינסקי נחמי\C#\projectCSHARP\DotNet2025_4329_6668\bin\DalXml.dll
+Z:\B\קרשינסקי נחמי\C#\projectCSHARP\DotNet2025_4329_6668\bin\DalXml.pdb
+Z:\B\קרשינסקי נחמי\C#\projectCSHARP\DotNet2025_4329_6668\DalXml\obj\Debug\DalXml.csproj.AssemblyReference.cache
+Z:\B\קרשינסקי נחמי\C#\projectCSHARP\DotNet2025_4329_6668\DalXml\obj\Debug\DalXml.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\קרשינסקי נחמי\C#\projectCSHARP\DotNet2025_4329_6668\DalXml\obj\Debug\DalXml.AssemblyInfoInputs.cache
+Z:\B\קרשינסקי נחמי\C#\projectCSHARP\DotNet2025_4329_6668\DalXml\obj\Debug\DalXml.AssemblyInfo.cs
+Z:\B\קרשינסקי נחמי\C#\projectCSHARP\DotNet2025_4329_6668\DalXml\obj\Debug\DalXml.csproj.CoreCompileInputs.cache
+Z:\B\קרשינסקי נחמי\C#\projectCSHARP\DotNet2025_4329_6668\DalXml\obj\Debug\DalXml.sourcelink.json
+Z:\B\קרשינסקי נחמי\C#\projectCSHARP\DotNet2025_4329_6668\DalXml\obj\Debug\DalXml.csproj.Up2Date
+Z:\B\קרשינסקי נחמי\C#\projectCSHARP\DotNet2025_4329_6668\DalXml\obj\Debug\DalXml.dll
+Z:\B\קרשינסקי נחמי\C#\projectCSHARP\DotNet2025_4329_6668\DalXml\obj\Debug\refint\DalXml.dll
+Z:\B\קרשינסקי נחמי\C#\projectCSHARP\DotNet2025_4329_6668\DalXml\obj\Debug\DalXml.pdb
+Z:\B\קרשינסקי נחמי\C#\projectCSHARP\DotNet2025_4329_6668\DalXml\obj\Debug\ref\DalXml.dll
