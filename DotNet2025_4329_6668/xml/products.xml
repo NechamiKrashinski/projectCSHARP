@@ -42,4 +42,12 @@
     <Price>300</Price>
     <Amount>500</Amount>
   </Product>
+  <Product>
+    <ID>7</ID>
+    <Name>comfortable shoes</Name>
+    <Category>sport</Category>
+    <Price>300</Price>
+    <Amount>100</Amount>
+  </Product>
+
 </ArrayOfProduct>

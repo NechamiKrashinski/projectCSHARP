@@ -68,11 +68,14 @@ internal class CustomerImplementation : BlApi.ICustomer
 
     public List<BO.Customer?> ReadAll(Func<BO.Customer, bool>? filter = null)
     {
+
         try
         {
+            
+
             List<DO.Customer?> listDO = _dal.Customer.ReadAll();
             List<BO.Customer?> listBO = (from c in listDO
-                                         where filter(c.ConvertCustomerDOToBO())
+                                         where filter==null || filter(c.ConvertCustomerDOToBO())
                                          select c.ConvertCustomerDOToBO()).ToList();
             return listBO;
 
@@ -87,7 +90,6 @@ internal class CustomerImplementation : BlApi.ICustomer
 
     public void Update(BO.Customer item)
     {
-
 
         try
         {

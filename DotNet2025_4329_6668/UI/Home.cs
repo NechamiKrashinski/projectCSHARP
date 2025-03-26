@@ -21,7 +21,28 @@ namespace UI
         {
             Manager manager = new Manager();
             manager.Show();
-            this.Hide();
+            //this.Close();
         }
+
+        private void customer_Click(object sender, EventArgs e)
+        {
+            Customer customer = new Customer();
+            customer.Show();
+        }
+
+        private void TOGO_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        //private void pictureBox2_Click(object sender, EventArgs e)
+        //{
+
+        //}
+
+        //private void Home_Load(object sender, EventArgs e)
+        //{
+
+        //}
     }
 }
