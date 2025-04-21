@@ -1,4 +1,16 @@
+<<<<<<< HEAD
 ﻿
+=======
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+>>>>>>> a6286ce92929cd05286a75453dcbe4bb1f77bc25
 
 namespace UI
 {
@@ -102,9 +114,15 @@ namespace UI
 
         private void BtnDelete_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             try
             {
                 int id;
+=======
+            //try
+            //{
+            int id;
+>>>>>>> a6286ce92929cd05286a75453dcbe4bb1f77bc25
             if (int.TryParse(textBoxDeleteId.Text, out id))
             {
                 _bl.Customer.Delete(id);
@@ -115,11 +133,19 @@ namespace UI
             else
                 MessageBox.Show("Invalid id");
 
+<<<<<<< HEAD
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
+=======
+            //}
+            //catch (Exception ex)
+            //{
+            //    MessageBox.Show(ex.Message);
+            //}
+>>>>>>> a6286ce92929cd05286a75453dcbe4bb1f77bc25
         }
 
         private void BtnRead_Click(object sender, EventArgs e)

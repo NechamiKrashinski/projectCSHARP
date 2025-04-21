@@ -1,8 +1,12 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "HHDdGG9Tjwo=",
+=======
+  "dgSpecHash": "wNLnB9sg7LE=",
+>>>>>>> a6286ce92929cd05286a75453dcbe4bb1f77bc25
   "success": true,
-  "projectFilePath": "C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\projectCSHARP\\DotNet2025_4329_6668\\BL\\BL.csproj",
+  "projectFilePath": "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\BL\\BL.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

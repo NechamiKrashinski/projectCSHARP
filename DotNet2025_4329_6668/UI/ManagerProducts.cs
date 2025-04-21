@@ -12,7 +12,10 @@ namespace UI
 {
     public partial class ManagerProducts : Form
     {
+<<<<<<< HEAD
         static readonly BlApi.IBl _bl = BlApi.Factory.Get();
+=======
+>>>>>>> a6286ce92929cd05286a75453dcbe4bb1f77bc25
         public ManagerProducts()
         {
             InitializeComponent();
@@ -20,6 +23,7 @@ namespace UI
 
         private void listBoxCustomers_SelectedIndexChanged(object sender, EventArgs e)
         {
+<<<<<<< HEAD
         }
 
         private void ManagerProducts_Load(object sender, EventArgs e)
@@ -168,6 +172,9 @@ namespace UI
             {
                 MessageBox.Show(ex.Message);
             }
+=======
+
+>>>>>>> a6286ce92929cd05286a75453dcbe4bb1f77bc25
         }
     }
 }

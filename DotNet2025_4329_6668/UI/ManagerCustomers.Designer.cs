@@ -204,7 +204,11 @@
             update.Location = new Point(4, 29);
             update.Name = "update";
             update.Padding = new Padding(3);
+<<<<<<< HEAD
             update.Size = new Size(349, 370);
+=======
+            update.Size = new Size(349, 351);
+>>>>>>> a6286ce92929cd05286a75453dcbe4bb1f77bc25
             update.TabIndex = 1;
             update.Text = "עדכון";
             update.UseVisualStyleBackColor = true;
@@ -308,7 +312,11 @@
             delete.Controls.Add(label5);
             delete.Location = new Point(4, 29);
             delete.Name = "delete";
+<<<<<<< HEAD
             delete.Size = new Size(349, 370);
+=======
+            delete.Size = new Size(349, 351);
+>>>>>>> a6286ce92929cd05286a75453dcbe4bb1f77bc25
             delete.TabIndex = 2;
             delete.Text = "מחיקה";
             delete.UseVisualStyleBackColor = true;
@@ -352,7 +360,11 @@
             readById.Controls.Add(label6);
             readById.Location = new Point(4, 29);
             readById.Name = "readById";
+<<<<<<< HEAD
             readById.Size = new Size(349, 370);
+=======
+            readById.Size = new Size(349, 351);
+>>>>>>> a6286ce92929cd05286a75453dcbe4bb1f77bc25
             readById.TabIndex = 3;
             readById.Text = "הצגת לקוח ע\"י ת.ז.";
             readById.UseVisualStyleBackColor = true;

@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 ﻿using BlApi;
 using BO;
 using System;
+=======
+﻿using System;
+>>>>>>> a6286ce92929cd05286a75453dcbe4bb1f77bc25
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,6 +18,7 @@ namespace UI
 {
     public partial class CustomerOrder : Form
     {
+<<<<<<< HEAD
         static readonly BlApi.IBl _bl = BlApi.Factory.Get();
         private BO.Order order;
         List<BO.SaleInProduct> list;
@@ -24,10 +29,16 @@ namespace UI
             order = new BO.Order(isClub);
             list = new List<BO.SaleInProduct>();
 
+=======
+        public CustomerOrder()
+        {
+            InitializeComponent();
+>>>>>>> a6286ce92929cd05286a75453dcbe4bb1f77bc25
         }
 
         private void CustomerOrder_Load(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             listBoxProducts.DataSource = _bl.Product.ReadAll().SelectMany(p => p.ToString().Split("\n")).ToList(); ; // ודא שזו רשימה ולא IEnumerable
             //listBox1.DataSource = list.ToString().Split("\n");
         }
@@ -71,3 +82,9 @@ namespace UI
         }
     }
 }
+=======
+
+        }
+    }
+}
+>>>>>>> a6286ce92929cd05286a75453dcbe4bb1f77bc25

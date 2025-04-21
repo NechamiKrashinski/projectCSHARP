@@ -3,7 +3,11 @@
   <Customer>
     <ID>555</ID>
     <Name>Chaim</Name>
+<<<<<<< HEAD
     <Address>ברכפלד</Address>
+=======
+    <Address>ברכםלד</Address>
+>>>>>>> a6286ce92929cd05286a75453dcbe4bb1f77bc25
     <Phone>0583244056</Phone>
   </Customer>
   <Customer>
@@ -30,4 +34,13 @@
     <Address>קס</Address>
     <Phone>055555</Phone>
   </Customer>
+<<<<<<< HEAD
+=======
+  <Customer>
+    <ID>111</ID>
+    <Name>nechami</Name>
+    <Address>nnn</Address>
+    <Phone>6856</Phone>
+  </Customer>
+>>>>>>> a6286ce92929cd05286a75453dcbe4bb1f77bc25
 </ArrayOfCustomer>

@@ -22,7 +22,11 @@
         },
         "runtime": {
           "BL.dll": {
+<<<<<<< HEAD
             "assemblyVersion": "1.0.0.0",
+=======
+            "assemblyVersion": "1.0.0",
+>>>>>>> a6286ce92929cd05286a75453dcbe4bb1f77bc25
             "fileVersion": "1.0.0.0"
           }
         }
@@ -30,7 +34,11 @@
       "DalFacade/1.0.0": {
         "runtime": {
           "DalFacade.dll": {
+<<<<<<< HEAD
             "assemblyVersion": "1.0.0.0",
+=======
+            "assemblyVersion": "1.0.0",
+>>>>>>> a6286ce92929cd05286a75453dcbe4bb1f77bc25
             "fileVersion": "1.0.0.0"
           }
         }
@@ -42,7 +50,11 @@
         },
         "runtime": {
           "DalList.dll": {
+<<<<<<< HEAD
             "assemblyVersion": "1.0.0.0",
+=======
+            "assemblyVersion": "1.0.0",
+>>>>>>> a6286ce92929cd05286a75453dcbe4bb1f77bc25
             "fileVersion": "1.0.0.0"
           }
         }
@@ -53,7 +65,11 @@
         },
         "runtime": {
           "DalXml.dll": {
+<<<<<<< HEAD
             "assemblyVersion": "1.0.0.0",
+=======
+            "assemblyVersion": "1.0.0",
+>>>>>>> a6286ce92929cd05286a75453dcbe4bb1f77bc25
             "fileVersion": "1.0.0.0"
           }
         }
@@ -61,7 +77,11 @@
       "Tools/1.0.0": {
         "runtime": {
           "Tools.dll": {
+<<<<<<< HEAD
             "assemblyVersion": "1.0.0.0",
+=======
+            "assemblyVersion": "1.0.0",
+>>>>>>> a6286ce92929cd05286a75453dcbe4bb1f77bc25
             "fileVersion": "1.0.0.0"
           }
         }
