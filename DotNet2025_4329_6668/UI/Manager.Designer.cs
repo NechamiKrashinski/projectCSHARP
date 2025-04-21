@@ -43,6 +43,7 @@
             products.TabIndex = 0;
             products.Text = "מוצרים";
             products.UseVisualStyleBackColor = true;
+            products.Click += products_Click;
             // 
             // customers
             // 
@@ -52,6 +53,7 @@
             customers.TabIndex = 0;
             customers.Text = "לקוחות";
             customers.UseVisualStyleBackColor = true;
+            customers.Click += customers_Click;
             // 
             // sales
             // 
@@ -61,6 +63,7 @@
             sales.TabIndex = 0;
             sales.Text = "מבצעים";
             sales.UseVisualStyleBackColor = true;
+            sales.Click += sales_Click;
             // 
             // TOGO
             // 

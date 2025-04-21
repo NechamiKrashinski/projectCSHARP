@@ -7,7 +7,7 @@ using System.Xml.Serialization;
 
 namespace Dal;
 
-internal class ProductImplementation :IProduct
+internal class ProductImplementation : IProduct
 {
     static object lockObject = new object();
     public int Create(Product item)
@@ -16,7 +16,14 @@ internal class ProductImplementation :IProduct
         {
             throw new DalExceptionNullReceived("Product");
         }
+
         List<Product> productsList = LoadProductFromXml();
+        //בדיקה האם קיים אובייקט עם אותו מזהה
+        bool b = productsList.Any(p => p.ID == item.ID);
+        if (b)
+        {
+            throw new DalExceptionIdIsAlreadyExistInTheList("Product");
+        }
         //הוספת המוצר החדש לרשימה
         Product p = item with { ID = Config.NextValProduct };
         productsList.Add(p);
@@ -28,10 +35,21 @@ internal class ProductImplementation :IProduct
 
     public void Delete(int id)
     {
-        List<Product> productsList = LoadProductFromXml();
-        Product? p = Read(id);
-        productsList.Remove(p);
-        StoreProductToXml(productsList);
+        lock (lockObject)
+        {
+            List<Product> productsList = LoadProductFromXml();
+            try
+            {
+                Product? p = productsList.Single(p => p?.ID == id);
+                productsList.Remove(p);
+                StoreProductToXml(productsList);
+            }
+            catch
+            {
+                throw new DalExceptionIdDoesNotExistInTheList("customer");
+            }
+        }
+
     }
 
     public Product? Read(int id)
@@ -67,23 +85,45 @@ internal class ProductImplementation :IProduct
 
     public List<Product?> ReadAll(Func<Product, bool>? filter = null)
     {
-        List<Product> productsList = LoadProductFromXml();
+
+        List<Product> productsList;
+        productsList = LoadProductFromXml();
+
         if (filter == null)
         {
-            return productsList;
+            return new List<Product?>(productsList);
+
         }
         return productsList.Where(p => filter(p)).ToList();
     }
 
     public void Update(Product item)
     {
-        List<Product> productsList = LoadProductFromXml();
+
+
+
+
         if (item == null)
         {
             throw new DalExceptionNullReceived("Product");
         }
-        Delete(item.ID);
-        productsList.Add(item);
+        List<Product> productsList = LoadProductFromXml();
+
+        // חיפוש הלקוח ברשימה לפי ה-ID
+        var existingProductIndex = productsList.FindIndex(c => c.ID == item.ID);
+        if (existingProductIndex != -1)
+        {
+            // יצירת מוצר חדש עם הנתונים המעודכנים
+            var updatedCustomer = new Product(item.ID, item.Name, item.Category, item.Price, item.Amount);
+
+            // עדכון הרשימה עם הלקוח המעודכן
+            productsList[existingProductIndex] = updatedCustomer;
+        }
+        else
+        {
+            throw new DalExceptionIdDoesNotExistInTheList("Product not found.");
+        }
+
         StoreProductToXml(productsList);
     }
 
@@ -114,15 +154,17 @@ internal class ProductImplementation :IProduct
         }
     }
 
+
     private void StoreProductToXml(List<Product> productsList)
     {
         try
         {
+            XmlSerializer serializer = new XmlSerializer(typeof(List<Product>));
             lock (lockObject)
             {
-                using (FileStream fs = new FileStream("../xml/products.xml", FileMode.Open, FileAccess.Write))
+                //שומרים את הרשימה חזרה בקובץ הXML
+                using (FileStream fs = new FileStream("../xml/products.xml", FileMode.Create, FileAccess.Write))
                 {
-                    XmlSerializer serializer = new XmlSerializer(typeof(List<Product>));
                     serializer.Serialize(fs, productsList);
                 }
             }

@@ -37,8 +37,8 @@ public static class Program
         }
         catch (Exception e) // נתפוס כל שגיאה אחרת
         {
-            throw e;
-
+            Console.WriteLine($"Unexpected error: {e.Message}");
+            return new List<BO.SaleInProduct>(); // כדי שהתוכנית תמשיך לרוץ
         }
     }
     public static void GetProducts()

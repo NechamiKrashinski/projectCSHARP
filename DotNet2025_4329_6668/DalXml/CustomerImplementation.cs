@@ -46,7 +46,7 @@ internal class CustomerImplementation : ICustomer
             lock (lockObject)
             {
                 //שומרים את הרשימה חזרה בקובץ הXML
-                using (FileStream fs = new FileStream("../xml/customers.xml", FileMode.Open, FileAccess.Write))
+                using (FileStream fs = new FileStream("../xml/customers.xml", FileMode.Create, FileAccess.Write))
                 {
                     serializer.Serialize(fs, customersList);
                 }
@@ -83,11 +83,21 @@ internal class CustomerImplementation : ICustomer
 
     public void Delete(int id)
     {
-        List<Customer> customersList;
-        customersList = LoadCustomersListFromXml();
-        Customer c = Read(id);
-        customersList.Remove(c);
-        StoreCustomersListToXml(customersList);
+        lock (lockObject)
+        {
+            List<Customer> customersList;
+            customersList = LoadCustomersListFromXml();
+            try
+            {
+                Customer c = customersList.Single(c => c?.ID == id);
+                customersList.Remove(c);
+                StoreCustomersListToXml(customersList);
+            }
+            catch
+            {
+                throw new DalExceptionIdDoesNotExistInTheList("customer");
+            }
+        }
     }
 
     public Customer? Read(int id)
@@ -134,17 +144,31 @@ internal class CustomerImplementation : ICustomer
         return customersList.Where(c => filter(c)).ToList();
 
     }
-
     public void Update(Customer item)
     {
         if (item == null)
         {
             throw new DalExceptionNullReceived("customer");
         }
-        List<Customer> customersList;
-        customersList = LoadCustomersListFromXml();
-        Delete(item.ID);
-        customersList.Add(item);
+
+        List<Customer> customersList = LoadCustomersListFromXml();
+
+        // חיפוש הלקוח ברשימה לפי ה-ID
+        var existingCustomerIndex = customersList.FindIndex(c => c.ID == item.ID);
+        if (existingCustomerIndex != -1)
+        {
+            // יצירת לקוח חדש עם הנתונים המעודכנים
+            var updatedCustomer = new Customer(item.ID, item.Name, item.Address, item.Phone);
+
+            // עדכון הרשימה עם הלקוח המעודכן
+            customersList[existingCustomerIndex] = updatedCustomer;
+        }
+        else
+        {
+            throw new DalExceptionIdDoesNotExistInTheList("Customer not found.");
+        }
+
         StoreCustomersListToXml(customersList);
     }
+
 }

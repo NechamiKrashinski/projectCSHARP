@@ -230,7 +230,7 @@ internal class Program
     }
     static void Main(string[] args)
     {
-        Initialization.Initialize();
+        //Initialization.Initialize();
         try
         {
 

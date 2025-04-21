@@ -15,7 +15,7 @@ namespace Bllmplementation
                 DO.Product product = item.ConvertProductBOtoDO();
                 return _dal.Product.Create(product);
             }
-                catch(DO.DalExceptionIdDoesNotExistInTheList e)
+            catch (DO.DalExceptionIdDoesNotExistInTheList e)
             {
                 throw new BO.BLExceptionIdDoesNotExistInTheList("Bl: ID is already exist \n ", e);
             }
@@ -27,7 +27,7 @@ namespace Bllmplementation
             {
                 _dal.Product.Delete(id);
             }
-            catch(DO.DalExceptionIdDoesNotExistInTheList e)
+            catch (DO.DalExceptionIdDoesNotExistInTheList e)
             {
                 throw new BO.BLExceptionIdDoesNotExistInTheList("Bl: ID does not exist \n", e);
             }
@@ -77,8 +77,8 @@ namespace Bllmplementation
             {
                 List<DO.Product?> listDO = _dal.Product.ReadAll();
                 List<BO.Product?> listBO = (from p in listDO
-                                             where filter==null || filter(p.ConvertProductDOToBO())
-                                             select p.ConvertProductDOToBO()).ToList();
+                                            where filter == null || filter(p.ConvertProductDOToBO())
+                                            select p.ConvertProductDOToBO()).ToList();
                 return listBO;
 
             }
@@ -99,17 +99,17 @@ namespace Bllmplementation
             try
             {
                 List<DO.Sale> sales = _dal.Sale.ReadAll();
-                sales= (from s in sales
-                       where s.ProductId== productId 
-                       select s).ToList();
-               
+                sales = (from s in sales
+                         where s.ProductId == productId
+                         select s).ToList();
+
                 if (!isClub)
                 {
                     sales = sales.FindAll(s => !s.ForClub);
                 }
                 List<BO.SaleInProduct> list = (from s in sales
-                                               where s.EndDateSale>=DateTime.Now && s.StartDateSale<=DateTime.Now
-                                               select  new BO.SaleInProduct(s.ID, s.MinAmountForSale, s.SalePrice, s.ForClub)).ToList();
+                                               where s.EndDateSale >= DateTime.Now && s.StartDateSale <= DateTime.Now
+                                               select new BO.SaleInProduct(s.ID, s.MinAmountForSale, s.SalePrice, s.ForClub)).ToList();
 
                 return list;
             }

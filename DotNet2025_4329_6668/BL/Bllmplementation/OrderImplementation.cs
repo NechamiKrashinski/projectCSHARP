@@ -68,7 +68,7 @@ internal class OrderImplementation : BlApi.IOrder
         }
         catch
         {
-            throw ;
+            throw;
 
         }
     }
@@ -105,6 +105,11 @@ internal class OrderImplementation : BlApi.IOrder
             }
             //נעדכן את הכמות בהזמנה
             product.Amount += amount;
+            if (product.Amount <= 0)
+            {
+                order.ListOfProductsOrder.Remove(product);
+                return null;
+            }
             product.ListOfSaleForProduct = SearchSaleForProduct(productId, order.IsClubCustomer, amount);
             CalcTotalPriceForProduct(product);
             CalcTotalPrice(order);
@@ -133,7 +138,7 @@ internal class OrderImplementation : BlApi.IOrder
                 _dal.Product.Update(p.ConvertProductBOtoDO());
             }
         }
-        catch(Exception e)
+        catch (Exception e)
         {
             throw e;
         }
