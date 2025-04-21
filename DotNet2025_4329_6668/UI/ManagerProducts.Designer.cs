@@ -824,32 +824,32 @@
         private TabControl tabControlCustomers;
         private TabPage add;
         private Button buttonAdd;
-<<<<<<< HEAD
-        private TextBox textBoxPrice;
-        private TextBox textBoxName;
-        private Label price;
-        private Label address;
-        private Label name;
-        private TabPage update;
-        private Button BtnUpdate;
-=======
-        private TextBox textBoxPhone;
-        private TextBox textBoxAddress;
-        private TextBox textBoxName;
-        private TextBox textBoxId;
-        private Label phone;
-        private Label address;
-        private Label name;
-        private Label ID;
-        private TabPage update;
-        private Button BtnUpdate;
-        private TextBox textBoxUpdatePhone;
-        private TextBox textBoxUpdateAddress;
-        private TextBox textBoxUpdateName;
-        private Label label2;
-        private Label label3;
-        private Label label4;
->>>>>>> a6286ce92929cd05286a75453dcbe4bb1f77bc25
+//<<<<<<< HEAD
+//        private TextBox textBoxPrice;
+//        private TextBox textBoxName;
+//        private Label price;
+//        private Label address;
+//        private Label name;
+//        private TabPage update;
+//        private Button BtnUpdate;
+//=======
+//        private TextBox textBoxPhone;
+//        private TextBox textBoxAddress;
+//        private TextBox textBoxName;
+//        private TextBox textBoxId;
+//        private Label phone;
+//        private Label address;
+//        private Label name;
+//        private Label ID;
+//        private TabPage update;
+//        private Button BtnUpdate;
+//        private TextBox textBoxUpdatePhone;
+//        private TextBox textBoxUpdateAddress;
+//        private TextBox textBoxUpdateName;
+//        private Label label2;
+//        private Label label3;
+//        private Label label4;
+//>>>>>>> a6286ce92929cd05286a75453dcbe4bb1f77bc25
         private Button sendIdToUpdate;
         private TextBox textBoxUpdateId;
         private Label label1;
@@ -858,24 +858,16 @@
         private TextBox textBoxDeleteId;
         private Label label5;
         private TabPage readById;
-<<<<<<< HEAD
         private TextBox textBoxReadPrice;
         private TextBox textBoxReadCategory;
         private TextBox textBoxReadName;
         private Label labelReadPrice;
         private Label labelReadCategort;
-=======
-        private TextBox textBoxReadPhone;
-        private TextBox textBoxReadAddress;
-        private TextBox textBoxReadName;
-        private Label labelReadPhone;
-        private Label labelReadAddress;
->>>>>>> a6286ce92929cd05286a75453dcbe4bb1f77bc25
+
         private Label labelReadName;
         private Button BtnRead;
         private TextBox textBoxReadId;
         private Label label6;
-<<<<<<< HEAD
         private ListBox listBoxProducts;
         private TextBox textBoxAmont;
         private Label amount;
@@ -892,8 +884,6 @@
         private Label label8;
         private TextBox textBoxReadAmount;
         private Label labelReadAmount;
-=======
-        private ListBox listBoxCustomers;
->>>>>>> a6286ce92929cd05286a75453dcbe4bb1f77bc25
+
     }
 }

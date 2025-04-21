@@ -1,12 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "0XT8emg303w=",
-=======
-  "dgSpecHash": "aSSqj4rbgdg=",
->>>>>>> a6286ce92929cd05286a75453dcbe4bb1f77bc25
   "success": true,
-  "projectFilePath": "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\DalXml\\DalXml.csproj",
+  "projectFilePath": "C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\projectCSHARP\\DotNet2025_4329_6668\\DalXml\\DalXml.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\projectCSHARP\\DotNet2025_4329_6668\\DalXml\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
