@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\BL\\BL.csproj": {}
+    "C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\projectCSHARP\\DotNet2025_4329_6668\\BL\\BL.csproj": {}
   },
   "projects": {
-    "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\BL\\BL.csproj": {
+    "C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\projectCSHARP\\DotNet2025_4329_6668\\BL\\BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\BL\\BL.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\projectCSHARP\\DotNet2025_4329_6668\\BL\\BL.csproj",
         "projectName": "BL",
-        "projectPath": "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\BL\\BL.csproj",
-        "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
-        "outputPath": "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\BL\\obj\\",
+        "projectPath": "C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\projectCSHARP\\DotNet2025_4329_6668\\BL\\BL.csproj",
+        "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\projectCSHARP\\DotNet2025_4329_6668\\BL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\huser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,29 +26,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\DalFacade\\DalFacade.csproj"
+              "C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\projectCSHARP\\DotNet2025_4329_6668\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\projectCSHARP\\DotNet2025_4329_6668\\DalFacade\\DalFacade.csproj"
               },
-<<<<<<< HEAD
               "C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\projectCSHARP\\DotNet2025_4329_6668\\DalList\\DalList.csproj": {
                 "projectPath": "C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\projectCSHARP\\DotNet2025_4329_6668\\DalList\\DalList.csproj"
               },
               "C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\projectCSHARP\\DotNet2025_4329_6668\\DalXml\\DalXml.csproj": {
                 "projectPath": "C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\projectCSHARP\\DotNet2025_4329_6668\\DalXml\\DalXml.csproj"
-=======
-              "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\DalList\\DalList.csproj": {
-                "projectPath": "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\DalList\\DalList.csproj"
-              },
-              "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\DalXml\\DalXml.csproj": {
-                "projectPath": "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\DalXml\\DalXml.csproj"
->>>>>>> a6286ce92929cd05286a75453dcbe4bb1f77bc25
               }
             }
           }
@@ -63,7 +54,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -84,28 +75,24 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
->>>>>>> a6286ce92929cd05286a75453dcbe4bb1f77bc25
         }
       }
     },
-    "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\DalFacade\\DalFacade.csproj": {
+    "C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\projectCSHARP\\DotNet2025_4329_6668\\DalFacade\\DalFacade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\DalFacade\\DalFacade.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\projectCSHARP\\DotNet2025_4329_6668\\DalFacade\\DalFacade.csproj",
         "projectName": "DalFacade",
-        "projectPath": "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\DalFacade\\DalFacade.csproj",
-        "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
-        "outputPath": "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\DalFacade\\obj\\",
+        "projectPath": "C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\projectCSHARP\\DotNet2025_4329_6668\\DalFacade\\DalFacade.csproj",
+        "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\projectCSHARP\\DotNet2025_4329_6668\\DalFacade\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\huser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -114,7 +101,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -133,7 +119,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -154,28 +140,24 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
->>>>>>> a6286ce92929cd05286a75453dcbe4bb1f77bc25
         }
       }
     },
-    "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\DalList\\DalList.csproj": {
+    "C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\projectCSHARP\\DotNet2025_4329_6668\\DalList\\DalList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\DalList\\DalList.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\projectCSHARP\\DotNet2025_4329_6668\\DalList\\DalList.csproj",
         "projectName": "DalList",
-        "projectPath": "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\DalList\\DalList.csproj",
-        "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
-        "outputPath": "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\DalList\\obj\\",
+        "projectPath": "C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\projectCSHARP\\DotNet2025_4329_6668\\DalList\\DalList.csproj",
+        "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\projectCSHARP\\DotNet2025_4329_6668\\DalList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\huser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -184,18 +166,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\DalFacade\\DalFacade.csproj"
+              "C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\projectCSHARP\\DotNet2025_4329_6668\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\projectCSHARP\\DotNet2025_4329_6668\\DalFacade\\DalFacade.csproj"
               },
-              "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\Tools\\Tools.csproj": {
-                "projectPath": "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\Tools\\Tools.csproj"
+              "C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\projectCSHARP\\DotNet2025_4329_6668\\Tools\\Tools.csproj": {
+                "projectPath": "C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\projectCSHARP\\DotNet2025_4329_6668\\Tools\\Tools.csproj"
               }
             }
           }
@@ -210,7 +191,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -231,7 +212,6 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
@@ -302,96 +282,23 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
->>>>>>> a6286ce92929cd05286a75453dcbe4bb1f77bc25
         }
       }
     },
-    "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\DalXml\\DalXml.csproj": {
+    "C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\projectCSHARP\\DotNet2025_4329_6668\\Tools\\Tools.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\DalXml\\DalXml.csproj",
-        "projectName": "DalXml",
-        "projectPath": "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\DalXml\\DalXml.csproj",
-        "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
-        "outputPath": "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\DalXml\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\huser\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\DalFacade\\DalFacade.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\Tools\\Tools.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\Tools\\Tools.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\projectCSHARP\\DotNet2025_4329_6668\\Tools\\Tools.csproj",
         "projectName": "Tools",
-        "projectPath": "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\Tools\\Tools.csproj",
-        "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
-        "outputPath": "Z:\\B\\קרשינסקי נחמי\\C#\\projectCSHARP\\DotNet2025_4329_6668\\Tools\\obj\\",
+        "projectPath": "C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\projectCSHARP\\DotNet2025_4329_6668\\Tools\\Tools.csproj",
+        "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user1\\Documents\\לימודים\\c#\\project\\projectCSHARP\\DotNet2025_4329_6668\\Tools\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\huser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -400,7 +307,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -419,7 +325,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -440,11 +346,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
->>>>>>> a6286ce92929cd05286a75453dcbe4bb1f77bc25
         }
       }
     }

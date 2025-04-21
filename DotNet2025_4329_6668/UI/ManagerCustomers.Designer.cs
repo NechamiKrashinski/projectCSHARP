@@ -204,11 +204,10 @@
             update.Location = new Point(4, 29);
             update.Name = "update";
             update.Padding = new Padding(3);
-<<<<<<< HEAD
+
             update.Size = new Size(349, 370);
-=======
+
             update.Size = new Size(349, 351);
->>>>>>> a6286ce92929cd05286a75453dcbe4bb1f77bc25
             update.TabIndex = 1;
             update.Text = "עדכון";
             update.UseVisualStyleBackColor = true;
